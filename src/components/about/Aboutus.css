@@ -1,0 +1,52 @@
+.parentContainer {
+  position: relative;
+  text-align: center;
+  color: black;
+  }
+
+  .centered {
+    position: absolute;
+    top: 50%;
+    left: 30%;
+    transform: translate(-50%, -50%);
+    }
+
+  .top{
+    position: absolute;
+    top: 20%;
+    left: 20%;
+  }
+  
+  .center{
+      position: absolute;
+    top: 90%;
+    left: 0%;
+  }
+
+  h2{
+      font-size: 100px;
+      font-family: Brush Script MT, Brush Script Std, cursive;
+      color:green;
+  }
+
+  p{
+    color: black;
+      font-size: 15px;
+      font-family: Trebuchet MS, sans-serif;
+      text-align: justify;
+  }
+
+  .aboutbtn{
+      background-color: green;
+      border: curve;
+      color: white;
+      padding: 10px 25px;
+      text-align: center;
+      text-decoration: none;
+      display: inline-block;
+      font-size: 16px;
+      margin: 4px 2px;
+      cursor: pointer;
+      }
+
+      

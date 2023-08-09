@@ -13,8 +13,8 @@ const Navbar = () => {
             <div className="mid">
                 <ul className="items">
                     <li><Link to="/">Home</Link></li>
-                    <li><Link href="#deals">Deals</Link></li>
-                    <li><a href="#Categories">Categories</a></li>
+                    <li><a href="/">Deals</a></li>
+                    <li><a href="/">Categories</a></li>
                     <li><Link to="/aboutUs">About Us</Link></li>
                     <li><Link to="/contactUs">Contact Us</Link></li>
                 </ul>
@@ -24,10 +24,11 @@ const Navbar = () => {
                 </div>
             </div>
             <div className="right">
-                
+                <Link to="shoping-card">
                 <div className="cart">
                     <img src={Cart} alt="cart" />
                 </div>
+                </Link>
                 <div className="login buy-now">
                     <Link to="/login">
                         <button>Login</button>

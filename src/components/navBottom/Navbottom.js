@@ -2,7 +2,7 @@ import React from 'react';
 import "./Navbottom.css";
 const Navbottom = () => {
   return (
-    <div className="nav-bottom" >
+    <div className="nav-bottom" style={{marginBottom:"3rem"}} >
       <div className="lef"> 
         <h2 style={{ color: '#55f358', padding: '10px'}}>Save upto 50%off</h2>
         <h1 style={{ color: 'white', padding: '10px' }}>BUY FRESH <br />ORGANIC FOOD!</h1>

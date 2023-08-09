@@ -1,85 +1,50 @@
-:root{
-    --primary-color: #3bb77e;
-    --secondary :#ffba43;
-    --bg: #e2f9ee;
-    --black: #1c2137;
-    --white: #fff;
-    --box-shadow: 0 .5rem 1rem rgba(0, 0, 0, 0.1);
-  }
-.contact{
-    margin-top: 2rem;
-    width: 90%;
-    height: 90%;
+.contact-container{
+  background-image: url("../../images/slider/contactus.png");
+  background-repeat: no-repeat;
+  display: flex;
+  align-items: right;
+  justify-content: right;
 }
 
-.contact .row{
-    display: flex;
-    flex-wrap: wrap;
-    gap: 1rem;
-    margin: 2rem;
-    margin-top:-2rem ;
-  }
-  
-  .contact .row .image{
-    flex: 1 1 30rem;
-    margin-top: 2rem;
-  }
-  
-  .contact .row .image img{
-    height: 80%;
-    width: 80%;
-    object-fit: cover;
-  }
-  
-  .contact .row form{
-    flex: 1 1 50rem;
-    padding: 5rem;
-    padding-top: 10rem;
-  }
-  
-  .contact .row form .inputBox{
-    display: flex;
-    justify-content: space-between;
-    flex-wrap: wrap;
-  }
-  
-  .contact .row form .inputBox input,
-  .contact .row form textarea{
-    padding: 1rem;
-    margin: 1rem 0;
-    font-size: 1.7rem;
-    color: #666;
-    text-transform: capitalize;
-    border: .1rem solid transparent;
-    background: var(--bg);
-    border-bottom-color: var(--primary-color);
-    border-radius: .5rem .5rem 0 0;
-    width: 49%;
-  }
-  
-  .contact .row form .inputBox input:focus,
-  .contact .row form textarea:focus{
-    border-top-color: var(--primary-color);
-    border-right-color: var(--primary-color);
-    border-left-color: var(--primary-color);
-  }
-  
-  .contact .row form textarea{
-    width: 100%;
-    resize: none;
-    height: 15rem;
-  }
-  .heading{
-    text-align: center;
-    padding: 1.2rem 0;
-    margin-bottom: 3rem;
-    color: var(--primary-color);
-    text-transform: uppercase;
-    font-size: 4rem;
-  }
-  
-  .heading span{
-    color: var(--secondary);
-    text-transform: uppercase;
-  }
-  
+.contact-form{
+  background: rgba(0, 0, 0, 0.133);
+  display: flex;
+  flex-direction: column;
+  padding: 1vw 2vw;
+  width: 60%;
+  max-width: 650px;
+  border-radius: 10px;
+  margin-top: 3rem;
+}
+
+.contact-form h2{
+  font-size: 4rem;
+  color: black;
+  text-align: center;
+}
+
+.contact-form select, .contact-form option, .contact-form input, .contact-form textarea{
+  border: 0;
+  margin: 10px 0;
+  padding: 20px;
+  outline: none;
+  background: #f5f5f5d4;
+  font-size: 14px;
+}
+
+.contact-form button{
+  padding: 15px;
+  background: #4CAF50;
+  color: #fff;
+  font-size: 16px;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  margin: 10px auto 0;
+  display: block;
+  width: 100%;
+}
+
+.contact-h{
+  text-align: center;
+}
